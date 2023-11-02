@@ -16,4 +16,8 @@ export const ButtonContainer = styled.button`
     background-color: #0AF;
     border: 1px solid #CDCDCD;
     border-radius: 15%;
+
+    &:hover {
+        opacity: .6;
+    }
 `
