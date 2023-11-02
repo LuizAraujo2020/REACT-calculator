@@ -1,9 +1,12 @@
+import { Container, Content } from './styles';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Luiz</h1>
-    </div>
+    <Container>
+      <Content>
+        Luiz
+      </Content>
+    </Container>
   );
 }
 
