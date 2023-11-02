@@ -11,7 +11,22 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    width: 80%;
-    min-height: 350px;
+    width: 15rem;
     background-color: #FFF;
+`
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+`
+
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 `
